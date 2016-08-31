@@ -1,0 +1,222 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+body{
+  font-family: Baloo Tamma;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+   .well .page-header h1{
+     margin-top: 0;
+
+       }
+       .page-header h1,p{
+           font-family:fantasy;
+       }
+
+ #ref{
+   display: inline;
+
+ }
+ .page-header li{
+   display: inline;
+   padding: 15px;
+   float: right;
+
+ }
+
+#header{
+  padding-top: 90px;
+}
+footer {
+ background: #333;
+ color: #eee;
+ font-size: 11px;
+ padding: 20px;
+}
+#navigation li{
+  display: inline;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#mycarousel1 .item{
+  height: 200px;
+}
+
+#slide1{
+  background: url('../../images/fcb5.jpg') top center no-repeat;
+}
+#slide2{
+  background: url('../../images/fcb3.jpg') top center no-repeat;
+}
+#slide3{
+  background: url('../../images/fcb4.jpg') top center no-repeat;
+}
+#mycarousel2 .item{
+  height: 200px;
+}
+
+#slide4{
+  background: url('../../images/man1.jpg') top center no-repeat;
+}
+#slide5{
+  background: url('../../images/man5.jpg') top center no-repeat;
+}
+#slide6{
+  background: url('../../images/man6.jpg') top center no-repeat;
+}
+#mycarousel3 .item{
+  height: 200px;
+}
+
+#slide7{
+  background: url('../../images/che1.jpg') top center no-repeat;
+}
+#slide8{
+  background: url('../../images/che2.jpg') top center no-repeat;
+}
+#slide9{
+  background: url('../../images/che3.jpg') top center no-repeat;
+}
+#mycarousel4 .item{
+  height: 200px;
+}
+
+#slide10{
+  background: url('../../images/arsenal.jpg') top center no-repeat;
+}
+#slide11{
+  background: url('../../images/arsenal1.jpg') top center no-repeat;
+}
+#slide12{
+  background: url('../../images/arsenal2.jpg') top center no-repeat;
+}
+#mycarousel5 .item{
+  height: 200px;
+}
+
+#slide13{
+  background: url('../../images/munich1.jpg') top center no-repeat;
+}
+#slide14{
+  background: url('../../images/munich.jpg') top center no-repeat;
+}
+#slide15{
+  background: url('../../images/munich2.jpg') top center no-repeat;
+}
+#mycarousel6 .item{
+  height: 200px;
+}
+
+#slide16{
+  background: url('../../images/mancity4.jpg') top center no-repeat;
+}
+#slide17{
+  background: url('../../images/mancity6.jpg') top center no-repeat;
+}
+#slide18{
+  background: url('../../images/mancity3.jpg') top center no-repeat;
+}
+#mycarousel7 .item{
+  height: 200px;
+}
+
+#slide19{
+  background: url('../../images/juventis1.jpg') top center no-repeat;
+}
+#slide20{
+  background: url('../../images/juventis2.jpg') top center no-repeat;
+}
+#slide21{
+  background: url('../../images/juventis3.jpg') top center no-repeat;
+}
+#mycarousel8 .item{
+  height: 200px;
+}
+
+#slide22{
+  background: url('../../images/liverpool4.jpg') top center no-repeat;
+}
+#slide23{
+  background: url('../../images/liverpool2.jpg') top center no-repeat;
+}
+#slide24{
+  background: url('../../images/liverpool3.jpg') top center no-repeat;
+}
+#mycarousel9 .item{
+  height: 200px;
+}
+
+#slide25{
+  background: url('../../images/bvb1.jpg') top center no-repeat;
+}
+#slide26{
+  background: url('../../images/bvb2.jpg') top center no-repeat;
+}
+#slide27{
+  background: url('../../images/bvb3.jpg') top center no-repeat;
+}
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+#one{
+  height: 234px;
+}
+#one h4{
+  margin-top: 0;
+}
+element.stye{
+  margin-left: 50px;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+#one img{
+  width: 70%;
+}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  #one img{
+    margin-left: 250px;
+
+  }
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
